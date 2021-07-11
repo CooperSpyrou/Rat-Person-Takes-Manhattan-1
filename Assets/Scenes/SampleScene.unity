@@ -328,7 +328,7 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
-    bgm: {fileID: 0}
+    bgm: {fileID: 8300000, guid: bcd3a03b297cbd84b8eda6e52143bcdd, type: 3}
     minigame:
       m_PersistentCalls:
         m_Calls:
@@ -351,7 +351,10 @@ MonoBehaviour:
     - Blow out candles
     - 
     - Rat Person turns 7!
-    audio: []
+    audio:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     bgm: {fileID: 0}
     minigame:
       m_PersistentCalls:
@@ -375,7 +378,10 @@ MonoBehaviour:
     - Peddle as fast as you can with your little rat legs!
     - 
     - Rat Person learnt to ride a bike!
-    audio: []
+    audio:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     bgm: {fileID: 0}
     minigame:
       m_PersistentCalls:
@@ -399,7 +405,10 @@ MonoBehaviour:
     - Paint something spectacular!
     - 
     - Rat Person won an art prize!
-    audio: []
+    audio:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     bgm: {fileID: 0}
     minigame:
       m_PersistentCalls:
@@ -423,7 +432,10 @@ MonoBehaviour:
     - Tell them how you truly feel!
     - 
     - Rat Person has their first kiss!
-    audio: []
+    audio:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     bgm: {fileID: 0}
     minigame:
       m_PersistentCalls:
@@ -447,8 +459,11 @@ MonoBehaviour:
     - Make your parents proud!
     - 
     - Rat Person graduates college!
-    audio: []
-    bgm: {fileID: 0}
+    audio:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    bgm: {fileID: 8300000, guid: 2fde7f4b758675e4e86b92452e8c7356, type: 3}
     minigame:
       m_PersistentCalls:
         m_Calls:
@@ -470,8 +485,11 @@ MonoBehaviour:
     dialogue:
     - Apply for a well paying job!
     - 
-    - 
-    audio: []
+    - Rat Person gets their first job!
+    audio:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     bgm: {fileID: 0}
     minigame:
       m_PersistentCalls:
@@ -492,10 +510,13 @@ MonoBehaviour:
     - {fileID: 21300000, guid: c93a2e8c88bc7df47b91a1d34c18bcb6, type: 3}
     - {fileID: 21300000, guid: b497c63a75f8fa049a83b50e7359a215, type: 3}
     dialogue:
+    - Say "I do"!
     - 
-    - 
-    - 
-    audio: []
+    - Rat Person gets married!
+    audio:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     bgm: {fileID: 0}
     minigame:
       m_PersistentCalls:
@@ -516,86 +537,191 @@ MonoBehaviour:
     - {fileID: 21300000, guid: fe5d978e8e5e47344b039697ac9a31c9, type: 3}
     - {fileID: 21300000, guid: 29fc889926513ea4bb2147cf257dc65a, type: 3}
     dialogue:
+    - Accept the praise from your parents!
     - 
-    - 
-    - 
-    audio: []
+    - Rat Person makes their parents happy!
+    audio:
+    - {fileID: 8300000, guid: 4f7c19dd675502d4983203b1c513f490, type: 3}
+    - {fileID: 0}
+    - {fileID: 8300000, guid: 2f641b7968786fc49b84a072d615920d, type: 3}
     bgm: {fileID: 0}
     minigame:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 377842326}
+          m_TargetAssemblyTypeName: Gameplay, Assembly-CSharp
+          m_MethodName: zCreatePrefab
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 4790113682217091621, guid: 69777ab680e282f47b529e30e57d06e2, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - screens:
     - {fileID: 21300000, guid: 9feec049b1fd1c44c8a19723ecf68788, type: 3}
     - {fileID: 21300000, guid: a300f89a9a237bc49bbff7429cc4dca7, type: 3}
     dialogue:
+    - Watch the miracle of childbirth take place!
     - 
-    - 
-    - 
-    audio: []
+    - TWINS! Rat Person is a parent!
+    audio:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     bgm: {fileID: 0}
     minigame:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 377842326}
+          m_TargetAssemblyTypeName: Gameplay, Assembly-CSharp
+          m_MethodName: zCreatePrefab
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 4790113682217091621, guid: 69777ab680e282f47b529e30e57d06e2, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - screens:
     - {fileID: 21300000, guid: 1ae8e804cf85b1444b2270cbd6ef4ffb, type: 3}
     - {fileID: 21300000, guid: 95cf9789ad0e1dc4ab1b1dc6026df7b0, type: 3}
     dialogue:
+    - Do well at your job!
     - 
-    - 
-    - 
-    audio: []
+    - Rat Person gets promoted!
+    audio:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     bgm: {fileID: 0}
     minigame:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 377842326}
+          m_TargetAssemblyTypeName: Gameplay, Assembly-CSharp
+          m_MethodName: zCreatePrefab
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 4790113682217091621, guid: 69777ab680e282f47b529e30e57d06e2, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - screens:
     - {fileID: 21300000, guid: 6322d486032ad2743a7288a1c2f1e1ad, type: 3}
     - {fileID: 21300000, guid: 6f487b9892a79e84ba4480ab8167cfa9, type: 3}
     dialogue:
+    - Ignore your phone!
     - 
-    - 
-    - 
-    audio: []
+    - Rat Person misses dinner with their friends!
+    audio:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     bgm: {fileID: 0}
     minigame:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 377842326}
+          m_TargetAssemblyTypeName: Gameplay, Assembly-CSharp
+          m_MethodName: zCreatePrefab
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 4790113682217091621, guid: 69777ab680e282f47b529e30e57d06e2, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - screens:
     - {fileID: 21300000, guid: 75be66ab149ed5e4ab93d19cc646c8fa, type: 3}
     - {fileID: 21300000, guid: e830ee179053c8a4c9e38990e769203d, type: 3}
     dialogue:
+    - Try to console your partner!
     - 
-    - 
-    - 
-    audio: []
+    - Rat Person fails to make things work!
+    audio:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     bgm: {fileID: 0}
     minigame:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 377842326}
+          m_TargetAssemblyTypeName: Gameplay, Assembly-CSharp
+          m_MethodName: zCreatePrefab
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 4790113682217091621, guid: 69777ab680e282f47b529e30e57d06e2, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - screens:
     - {fileID: 21300000, guid: 12bac5ac05b687d4bad2542a9067a9da, type: 3}
     - {fileID: 21300000, guid: d9d1c945c9de70d4ab8052cfcb752a91, type: 3}
     dialogue:
+    - Answer the phone!
     - 
-    - 
-    - 
-    audio: []
+    - Rat Person mourns their parents!
+    audio:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     bgm: {fileID: 0}
     minigame:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 377842326}
+          m_TargetAssemblyTypeName: Gameplay, Assembly-CSharp
+          m_MethodName: zCreatePrefab
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 4790113682217091621, guid: 69777ab680e282f47b529e30e57d06e2, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - screens:
     - {fileID: 21300000, guid: d5c6f4d6bb6680443981afac495b11b3, type: 3}
     - {fileID: 21300000, guid: 7f6f1ce59e715244e981db2d407fa4f4, type: 3}
     dialogue:
+    - Ignore your phone!
     - 
-    - 
-    - 
-    audio: []
+    - Rat Person misses their kids' birthday!
+    audio:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     bgm: {fileID: 0}
     minigame:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 377842326}
+          m_TargetAssemblyTypeName: Gameplay, Assembly-CSharp
+          m_MethodName: zCreatePrefab
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 4790113682217091621, guid: 69777ab680e282f47b529e30e57d06e2, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - screens:
     - {fileID: 21300000, guid: 2f5f2b66009184a4a98c441b92592811, type: 3}
     - {fileID: 21300000, guid: 2f5f2b66009184a4a98c441b92592811, type: 3}
@@ -603,7 +729,10 @@ MonoBehaviour:
     - 
     - 
     - 
-    audio: []
+    audio:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     bgm: {fileID: 0}
     minigame:
       m_PersistentCalls:

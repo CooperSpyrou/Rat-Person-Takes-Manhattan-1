@@ -41,6 +41,8 @@ public class Gameplay : MonoBehaviour
         _audioSource = GetComponent<AudioSource>();
         _audioSourceBGM = GameObject.Find("BGM").GetComponent<AudioSource>();
 
+        playBgm();
+
         /*for (int i = 0; i < levelList.Length; i++)
         {
             //Debug.Log("Looking at level " + i);
@@ -73,6 +75,16 @@ public class Gameplay : MonoBehaviour
         {
             NextLevel();
         }
+
+        //debug
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            if (currentDialogue == 2) 
+            {
+                NextLevel();
+            }
+            currentDialogue = 2;
+        }
     }
 
 
@@ -104,19 +116,24 @@ public class Gameplay : MonoBehaviour
 
             UpdateLevelUI();
 
-            if (_audioSourceBGM.clip != levelList[currentLevel].bgm)
-            {
-                _audioSourceBGM.Stop();
-            }
-
-            if (levelList[currentLevel].bgm != null)
-            {
-                _audioSourceBGM.clip = levelList[currentLevel].bgm;
-                _audioSourceBGM.Play();
-            }
+            playBgm();
         }
     }
 
+    void playBgm() 
+    {
+        //if (_audioSourceBGM.clip != levelList[currentLevel].bgm)
+        if (_audioSourceBGM != null && _audioSourceBGM.clip == levelList[currentLevel].bgm)
+        {
+            _audioSourceBGM.Stop();
+        }
+
+        if (levelList[currentLevel].bgm != null)
+        {
+            _audioSourceBGM.clip = levelList[currentLevel].bgm;
+            _audioSourceBGM.Play();
+        }
+    }
 
 
     void UpdateLevelUI()
