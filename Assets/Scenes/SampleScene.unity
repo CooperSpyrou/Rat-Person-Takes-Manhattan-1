@@ -466,7 +466,7 @@ MonoBehaviour:
           m_CallState: 2
   - screens:
     - {fileID: 21300000, guid: df174550ab6d2de46b62cf936df706ff, type: 3}
-    - {fileID: 21300000, guid: 2f5f2b66009184a4a98c441b92592811, type: 3}
+    - {fileID: 21300000, guid: f0166565eca9242408902f6f1f484d2f, type: 3}
     dialogue:
     - Apply for a well paying job!
     - 
@@ -489,8 +489,12 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - screens:
-    - {fileID: 21300000, guid: 2f5f2b66009184a4a98c441b92592811, type: 3}
-    dialogue: []
+    - {fileID: 21300000, guid: c93a2e8c88bc7df47b91a1d34c18bcb6, type: 3}
+    - {fileID: 21300000, guid: b497c63a75f8fa049a83b50e7359a215, type: 3}
+    dialogue:
+    - 
+    - 
+    - 
     audio: []
     bgm: {fileID: 0}
     minigame:
@@ -509,8 +513,84 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - screens:
-    - {fileID: 21300000, guid: 2f5f2b66009184a4a98c441b92592811, type: 3}
-    dialogue: []
+    - {fileID: 21300000, guid: fe5d978e8e5e47344b039697ac9a31c9, type: 3}
+    - {fileID: 21300000, guid: 29fc889926513ea4bb2147cf257dc65a, type: 3}
+    dialogue:
+    - 
+    - 
+    - 
+    audio: []
+    bgm: {fileID: 0}
+    minigame:
+      m_PersistentCalls:
+        m_Calls: []
+  - screens:
+    - {fileID: 21300000, guid: 9feec049b1fd1c44c8a19723ecf68788, type: 3}
+    - {fileID: 21300000, guid: a300f89a9a237bc49bbff7429cc4dca7, type: 3}
+    dialogue:
+    - 
+    - 
+    - 
+    audio: []
+    bgm: {fileID: 0}
+    minigame:
+      m_PersistentCalls:
+        m_Calls: []
+  - screens:
+    - {fileID: 21300000, guid: 1ae8e804cf85b1444b2270cbd6ef4ffb, type: 3}
+    - {fileID: 21300000, guid: 95cf9789ad0e1dc4ab1b1dc6026df7b0, type: 3}
+    dialogue:
+    - 
+    - 
+    - 
+    audio: []
+    bgm: {fileID: 0}
+    minigame:
+      m_PersistentCalls:
+        m_Calls: []
+  - screens:
+    - {fileID: 21300000, guid: 6322d486032ad2743a7288a1c2f1e1ad, type: 3}
+    - {fileID: 21300000, guid: 6f487b9892a79e84ba4480ab8167cfa9, type: 3}
+    dialogue:
+    - 
+    - 
+    - 
+    audio: []
+    bgm: {fileID: 0}
+    minigame:
+      m_PersistentCalls:
+        m_Calls: []
+  - screens:
+    - {fileID: 21300000, guid: 75be66ab149ed5e4ab93d19cc646c8fa, type: 3}
+    - {fileID: 21300000, guid: e830ee179053c8a4c9e38990e769203d, type: 3}
+    dialogue:
+    - 
+    - 
+    - 
+    audio: []
+    bgm: {fileID: 0}
+    minigame:
+      m_PersistentCalls:
+        m_Calls: []
+  - screens:
+    - {fileID: 21300000, guid: 12bac5ac05b687d4bad2542a9067a9da, type: 3}
+    - {fileID: 21300000, guid: d9d1c945c9de70d4ab8052cfcb752a91, type: 3}
+    dialogue:
+    - 
+    - 
+    - 
+    audio: []
+    bgm: {fileID: 0}
+    minigame:
+      m_PersistentCalls:
+        m_Calls: []
+  - screens:
+    - {fileID: 21300000, guid: d5c6f4d6bb6680443981afac495b11b3, type: 3}
+    - {fileID: 21300000, guid: 7f6f1ce59e715244e981db2d407fa4f4, type: 3}
+    dialogue:
+    - 
+    - 
+    - 
     audio: []
     bgm: {fileID: 0}
     minigame:
@@ -518,55 +598,11 @@ MonoBehaviour:
         m_Calls: []
   - screens:
     - {fileID: 21300000, guid: 2f5f2b66009184a4a98c441b92592811, type: 3}
-    dialogue: []
-    audio: []
-    bgm: {fileID: 0}
-    minigame:
-      m_PersistentCalls:
-        m_Calls: []
-  - screens:
     - {fileID: 21300000, guid: 2f5f2b66009184a4a98c441b92592811, type: 3}
-    dialogue: []
-    audio: []
-    bgm: {fileID: 0}
-    minigame:
-      m_PersistentCalls:
-        m_Calls: []
-  - screens:
-    - {fileID: 21300000, guid: 2f5f2b66009184a4a98c441b92592811, type: 3}
-    dialogue: []
-    audio: []
-    bgm: {fileID: 0}
-    minigame:
-      m_PersistentCalls:
-        m_Calls: []
-  - screens:
-    - {fileID: 21300000, guid: 2f5f2b66009184a4a98c441b92592811, type: 3}
-    dialogue: []
-    audio: []
-    bgm: {fileID: 0}
-    minigame:
-      m_PersistentCalls:
-        m_Calls: []
-  - screens:
-    - {fileID: 21300000, guid: 2f5f2b66009184a4a98c441b92592811, type: 3}
-    dialogue: []
-    audio: []
-    bgm: {fileID: 0}
-    minigame:
-      m_PersistentCalls:
-        m_Calls: []
-  - screens:
-    - {fileID: 21300000, guid: 2f5f2b66009184a4a98c441b92592811, type: 3}
-    dialogue: []
-    audio: []
-    bgm: {fileID: 0}
-    minigame:
-      m_PersistentCalls:
-        m_Calls: []
-  - screens:
-    - {fileID: 21300000, guid: 2f5f2b66009184a4a98c441b92592811, type: 3}
-    dialogue: []
+    dialogue:
+    - 
+    - 
+    - 
     audio: []
     bgm: {fileID: 0}
     minigame:

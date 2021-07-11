@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 10}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 571}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 747
     width: 1059
     height: 200
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -70,10 +70,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 911, y: 563}
-  m_MaxSize: {x: 22006, y: 12063}
+  m_MinSize: {x: 910, y: 521}
+  m_MaxSize: {x: 22005, y: 12021}
   vertical: 1
-  controlID: 173
+  controlID: 125
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -119,8 +119,8 @@ MonoBehaviour:
     y: 239
     width: 1059
     height: 508
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 15}
@@ -149,10 +149,10 @@ MonoBehaviour:
     y: 0
     width: 1059
     height: 947
-  m_MinSize: {x: 202, y: 563}
-  m_MaxSize: {x: 4002, y: 12063}
+  m_MinSize: {x: 202, y: 521}
+  m_MaxSize: {x: 4002, y: 12021}
   vertical: 1
-  controlID: 137
+  controlID: 127
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,10 +176,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 947
-  m_MinSize: {x: 911, y: 563}
-  m_MaxSize: {x: 22006, y: 12063}
+  m_MinSize: {x: 910, y: 521}
+  m_MaxSize: {x: 22005, y: 12021}
   vertical: 0
-  controlID: 174
+  controlID: 126
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -199,8 +199,8 @@ MonoBehaviour:
     y: 0
     width: 289
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -254,7 +254,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 571}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -457,22 +457,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Drawings
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Drawings
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\alspo\OneDrive\Desktop\Rat Person Takes Manhattan2\Rat
-    Person Takes Manhattan
+  m_LastProjectPath: C:\Users\alspo\OneDrive\Desktop\Desktop\Bachelor of Games Design\2021
+    Tri 2\GDS210\Rat Person Takes Manhattan 1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: be500000
-    m_LastClickedID: 20670
+    m_SelectedIDs: c4500000
+    m_LastClickedID: 20676
     m_ExpandedIDs: 00000000be50000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -528,8 +528,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000a2640100445c00003874000052690000186b0000166b00001a6b0000206b0000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000a2640100445c00003874000052690000186b0000166b00001a6b0000206b0000aa510000ac510000b6510000ba510000a45100004e500000ae510000a8510000b8510000c0510000a2510000b4510000b2510000bc510000a0510000b0510000a6510000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -553,7 +553,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 1374}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 109.66667
@@ -623,8 +623,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
+      m_SelectedIDs: ee4f0000
+      m_LastClickedID: 20462
       m_ExpandedIDs: 54fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -736,7 +736,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.13335401, y: 0.028833026, z: -0.0038814675, w: -0.9906428}
     speed: 2
-    m_Value: {x: -0.133354, y: 0.028833024, z: -0.0038814673, w: -0.9906427}
+    m_Value: {x: -0.13335381, y: 0.028832985, z: -0.003881462, w: -0.99064136}
   m_Size:
     m_Target: 0.8660254
     speed: 2
@@ -848,7 +848,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -861,7 +861,7 @@ MonoBehaviour:
       y: 21
       width: 1057
       height: 466
-    m_Scale: {x: 0.45092595, y: 0.45092592}
+    m_Scale: {x: 0.4314815, y: 0.43148148}
     m_Translation: {x: 528.5, y: 233}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -869,12 +869,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1172.0328
-      y: -516.7146
-      width: 2344.0657
-      height: 1033.4292
+      x: -1224.8497
+      y: -540
+      width: 2449.6995
+      height: 1080
     m_MinimalGUI: 1
-  m_defaultScale: 0.45092592
+  m_defaultScale: 0.43148148
   m_LastWindowPixelSize: {x: 1057, y: 487}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
